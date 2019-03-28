@@ -1,0 +1,37 @@
+Popular Machine Learning Techniques:
+  
+  -Regression/Estimation: Is used in predicting continous values based on its charachteristics. ex - co2 emission from cars
+    
+  -Classification : Predicting items class/category of a case
+  
+  -Clustering : Used as segmentation technique for unsupervised learning
+  
+  -Associations: Finding Items that frequenty occur or co-occur. Ex - Predict the items bought in grosery shop
+  
+  -Anomaly detection: Discovering Abnormal cases. Ex Atm fraud detection
+  
+  -Sequence Mining: Predicting next event in stream(Markov Model,HMM)
+  
+  -Dimension Reduction: To reduce the size of the data.
+  
+  -Recmmendation Systems:TO suggest relevent books and movies
+
+AI(Makes computers intelligent by mimicing the human intalligence):
+  -Computer Vision
+  -Language Processing
+  -Creativity
+ML(Learn From data):
+  -Classification
+  -Clustering
+  -Neural Network
+Deep Learning(Complex Layers and deeper level of algorithms):
+  -Reinforcement Learning
+
+Supervised and Unsupervised Machine learning:
+  *Supervised Learning - Needs to have knowledge of the data to detect patterns
+    Techniques Employed:
+      -Classification 
+      -Regression
+  *Unsupervised Learning - Needs to find patters of the data by its own
+    Techniques Employed:
+      -Clustering
