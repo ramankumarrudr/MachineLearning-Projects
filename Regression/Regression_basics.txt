@@ -1,0 +1,28 @@
+Regression:
+  -It is a technique employed in supervised learning and used mostly with numpers and structured data from the database.
+  -There are two types of variables in Regression
+    *Dependent Variables(These variables can be seen as state||traget||output & The Data should be continous) Notation = Y
+    *Indipendent Variables(Causes of those states) Notation = X
+Types of regression models:
+  -Simple Regression (one InDependent variable is used to predict a Dependent variable)
+    *Simple Linear Regression (pridecting co2emission vs EngineSize)
+    *Simple Non-Linear Regression
+  -Multiple Linear Regression(More than one InDependent variable is used to predict a Dependent variable):
+    *Multiple Linear Regression
+    *Multiple Non-Linear Regression
+    
+Applications:
+  *Sales forecasting
+  *Price Estimation
+  *Employment income
+
+Diffrent Regression Techniques:
+  -Ordinal regression
+  -Poisson Regression
+  -Fast Forest quantile regression
+  -Linear , Polynomial , Lasso ,Stepwise , Ridge regression
+  -Bayesian Linear Regression
+  -Neural Network Regression
+  -Desicion Fores t Regression
+  -Boosted Desicion Tree regression
+  -KNN(K-nearesr Neighbours)
