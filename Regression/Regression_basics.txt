@@ -23,6 +23,6 @@ Diffrent Regression Techniques:
   -Linear , Polynomial , Lasso ,Stepwise , Ridge regression
   -Bayesian Linear Regression
   -Neural Network Regression
-  -Desicion Fores t Regression
+  -Desicion Forest Regression
   -Boosted Desicion Tree regression
   -KNN(K-nearesr Neighbours)
