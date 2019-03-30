@@ -6,5 +6,6 @@
 
 *Poisson regression: 
     Assumes the response variable Y has a Poisson distribution, and assumes the logarithm of its expected value can be          modeled by a linear combination of unknown parameters. A Poisson regression model is sometimes known as a log-linear model, especially when used to model contingency tables. 
+    
    
 // Yet to be edited //
