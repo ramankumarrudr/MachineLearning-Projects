@@ -1,0 +1,11 @@
+*ordinal regression (also called "ordinal classification"):
+    Is a type of regression analysis used for predicting an ordinal variable. Where dependent variable is the order response category 
+    variable and the independent variable may be categorical or continuous.
+      - More about diffrent variable types (refer : https://bit.ly/2N2LurX)
+      - Image Referance (https://pythonhosted.org/mord/_images/ordinal_1.png)
+
+*Poisson regression: 
+    Assumes the response variable Y has a Poisson distribution, and assumes the logarithm of its expected value can be modeled by a linear
+    combination of unknown parameters. A Poisson regression model is sometimes known as a log-linear model, especially when used to model 
+    contingency tables.      
+   
