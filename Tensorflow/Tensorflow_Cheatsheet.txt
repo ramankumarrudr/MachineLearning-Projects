@@ -1,1 +1,48 @@
+# Dataset used fashion_mnist
 
+Building Tensorflow Neural-network model:
+  
+  model = keras.Sequential([
+  keras.layers.Flatten()
+  keras.layers.dense(128,activation = tf.nn.relu) #128 hidden neurons
+  keras.layers.dense(10,activation = tf.nn.softmax ) #10 is the no of output classes
+  ])
+  
+Model Compilation using optimizer and loss function:
+
+  model.compile(optimizer = tf.train.AdamOptimizer(), loss= 'sparse_categorical_crossentropy') #for image classification
+  model.compile(optimizer='sgd', loss='mean_squared_error') #for sequential relationship
+
+
+Fitting the Model for training:
+
+  model.fit(x_train,y_train,epochs=1,callbacks=[callbacks])
+
+Evaluating the model:
+  
+  model.evaluate(x_test,y_test)
+
+Model prediction:
+
+  model.predict()
+  
+Tensorflow Callbacks:
+  class myCallback(tf.keras.callbacks.Callback):
+	  def on_epoch_end(self,epoch, logs={}):
+		  if(logs.get('loss')<0.15):
+			  print("\nloss is low and cancelling training")
+			  self.model.stop_training=True
+
+Tensorflow Convolution Layers&Polling Layers:
+  model = tf.keras.models.layers.Sequential([
+  tf.keras.layers.Conv2D(32, (3,3), activation='relu', input_shape=(28, 28, 1)), #
+  tf.keras.layers.MaxPooling2D(2, 2),
+  keras.layers.Flatten()
+  keras.layers.dense(128,activation = tf.nn.relu)
+  keras.layers.dense(10,activation = tf.nn.softmax )
+  ])
+  
+ Model Sumarry can be seen using :
+  model.summary()
+  
+  
