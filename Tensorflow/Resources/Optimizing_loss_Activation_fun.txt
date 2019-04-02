@@ -1,0 +1,11 @@
+Tensorflow Optimizing Functions:
+  1)SGD - Sarcastic Gradient Decesent
+  2)AdamOptimizer
+  
+Tensorflow Loss calculating Techniques:
+  1)sparse_categorical_crossentropy
+  2)mean_square_error
+
+Tensorflow Activation Functions:
+  1)Relu
+  2)softmax
